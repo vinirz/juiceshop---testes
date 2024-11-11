@@ -131,7 +131,7 @@ describe('Módulo "Review de produtos"', () => {
       expect(result).toBeUndefined()
     });
     
-    test('Teste para a funcionalidade createProductReviews - Fluxo de erro - Usuário nao cadastrado', async () => {
+    test('Teste para a funcionalidade createProductReviews - Fluxo de erro - Usuário não cadastrado', async () => {
       req.body = {
         id: 1,
         message: 'MESSAGE',
